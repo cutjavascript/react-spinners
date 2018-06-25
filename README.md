@@ -13,6 +13,9 @@
 [npm_url]: https://www.npmjs.org/package/react-spinners
 [ci_url]: https://circleci.com/gh/davidhu2000/react-spinners
 
+This is just a fork of https://www.npmjs.com/package/react-spinners, made small changes to have Packman loader eat anything(that's it everything else is the same)
+
+
 A collection of loading spinners with React.js based on [Halogen](https://github.com/yuanyan/halogen).
 
 This package is bootstraped using [react-npm-boilerplate](https://github.com/juliancwirko/react-npm-boilerplate)
