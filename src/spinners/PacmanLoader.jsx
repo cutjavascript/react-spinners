@@ -65,10 +65,10 @@ class Loader extends React.Component {
       <div className={this.wrapper()}>
         <div className={this.pac()} />
         <div className={this.man()} />
-        <div className={this.ballStyle(2)} />
-        <div className={this.ballStyle(3)} />
-        <div className={this.ballStyle(4)} />
-        <div className={this.ballStyle(5)} />
+        <div className={this.ballStyle(2)} >{this.props.value}</div>
+        <div className={this.ballStyle(3)} >{this.props.value}</div>
+        <div className={this.ballStyle(4)} >{this.props.value}</div>
+        <div className={this.ballStyle(5)} >{this.props.value}</div>
       </div> : null;
   }
 }
